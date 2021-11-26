@@ -13,7 +13,6 @@ namespace What_to_Watch
     public partial class Form1 : Form
     {
         // TODO: Add documentary folder and make sure it's working here
-        // TODO: Add way to open all other programs here and there
         public Form1()
         {
             InitializeComponent();
