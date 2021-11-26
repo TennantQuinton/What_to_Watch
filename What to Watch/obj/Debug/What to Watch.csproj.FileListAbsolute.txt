@@ -1,0 +1,30 @@
+E:\Media\Programs\What to Watch\What to Watch\bin\Debug\What to Watch.exe.config
+E:\Media\Programs\What to Watch\What to Watch\bin\Debug\What to Watch.exe
+E:\Media\Programs\What to Watch\What to Watch\bin\Debug\What to Watch.pdb
+E:\Media\Programs\What to Watch\What to Watch\obj\Debug\What to Watch.csprojAssemblyReference.cache
+E:\Media\Programs\What to Watch\What to Watch\obj\Debug\What_to_Watch.Properties.Resources.resources
+E:\Media\Programs\What to Watch\What to Watch\obj\Debug\What to Watch.csproj.GenerateResource.cache
+E:\Media\Programs\What to Watch\What to Watch\obj\Debug\What to Watch.csproj.CoreCompileInputs.cache
+E:\Media\Programs\What to Watch\What to Watch\obj\Debug\What to Watch.exe
+E:\Media\Programs\What to Watch\What to Watch\obj\Debug\What to Watch.pdb
+E:\Media\Programs\What to Watch\What to Watch\obj\Debug\What_to_Watch.Form1.resources
+E:\Media\Programs\What to Watch\bin\Debug\What to Watch.exe.config
+E:\Media\Programs\What to Watch\bin\Debug\What to Watch.exe
+E:\Media\Programs\What to Watch\bin\Debug\What to Watch.pdb
+E:\Media\Programs\What to Watch\obj\Debug\What to Watch.csprojAssemblyReference.cache
+E:\Media\Programs\What to Watch\obj\Debug\What_to_Watch.Form1.resources
+E:\Media\Programs\What to Watch\obj\Debug\What_to_Watch.Properties.Resources.resources
+E:\Media\Programs\What to Watch\obj\Debug\What to Watch.csproj.GenerateResource.cache
+E:\Media\Programs\What to Watch\obj\Debug\What to Watch.csproj.CoreCompileInputs.cache
+E:\Media\Programs\What to Watch\obj\Debug\What to Watch.exe
+E:\Media\Programs\What to Watch\obj\Debug\What to Watch.pdb
+C:\Users\quint\OneDrive - University of Waterloo (1)\Media\New folder\Movie Program Backup\What to Watch\bin\Debug\What to Watch.exe.config
+C:\Users\quint\OneDrive - University of Waterloo (1)\Media\New folder\Movie Program Backup\What to Watch\bin\Debug\What to Watch.exe
+C:\Users\quint\OneDrive - University of Waterloo (1)\Media\New folder\Movie Program Backup\What to Watch\bin\Debug\What to Watch.pdb
+C:\Users\quint\OneDrive - University of Waterloo (1)\Media\New folder\Movie Program Backup\What to Watch\obj\Debug\What to Watch.csprojAssemblyReference.cache
+C:\Users\quint\OneDrive - University of Waterloo (1)\Media\New folder\Movie Program Backup\What to Watch\obj\Debug\What_to_Watch.Form1.resources
+C:\Users\quint\OneDrive - University of Waterloo (1)\Media\New folder\Movie Program Backup\What to Watch\obj\Debug\What_to_Watch.Properties.Resources.resources
+C:\Users\quint\OneDrive - University of Waterloo (1)\Media\New folder\Movie Program Backup\What to Watch\obj\Debug\What to Watch.csproj.GenerateResource.cache
+C:\Users\quint\OneDrive - University of Waterloo (1)\Media\New folder\Movie Program Backup\What to Watch\obj\Debug\What to Watch.csproj.CoreCompileInputs.cache
+C:\Users\quint\OneDrive - University of Waterloo (1)\Media\New folder\Movie Program Backup\What to Watch\obj\Debug\What to Watch.exe
+C:\Users\quint\OneDrive - University of Waterloo (1)\Media\New folder\Movie Program Backup\What to Watch\obj\Debug\What to Watch.pdb
