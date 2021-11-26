@@ -572,13 +572,19 @@ namespace What_to_Watch
 
         private void sorting_label_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            string path = @"E:\Media\Programs\Movie Sorting\bin\Debug\Movie Sorting.exe";
+            string path = @"E:\Media\Programs\Movie_Sorting\Movie Sorting\bin\Debug\Movie Sorting.exe";
             System.Diagnostics.Process.Start(path);
         }
 
         private void musical_check_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void filetransfer_link_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            string path = @"E:\Media\Programs\File_Transfer\File Transfer\bin\Debug\File Transfer.exe";
+            System.Diagnostics.Process.Start(path);
         }
     }
 }

@@ -30,6 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             this.genres_group = new System.Windows.Forms.GroupBox();
+            this.docu_check = new System.Windows.Forms.CheckBox();
+            this.halloween_check = new System.Windows.Forms.CheckBox();
             this.monster_check = new System.Windows.Forms.CheckBox();
             this.thriller_check = new System.Windows.Forms.CheckBox();
             this.superhero_check = new System.Windows.Forms.CheckBox();
@@ -57,8 +59,7 @@
             this.and_radio_tooltip = new System.Windows.Forms.ToolTip(this.components);
             this.or_radio_tooltip = new System.Windows.Forms.ToolTip(this.components);
             this.sorting_label = new System.Windows.Forms.LinkLabel();
-            this.halloween_check = new System.Windows.Forms.CheckBox();
-            this.docu_check = new System.Windows.Forms.CheckBox();
+            this.filetransfer_link = new System.Windows.Forms.LinkLabel();
             this.genres_group.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -93,6 +94,26 @@
             this.genres_group.TabStop = false;
             this.genres_group.Text = "Select Genres";
             this.genres_group.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // docu_check
+            // 
+            this.docu_check.AutoSize = true;
+            this.docu_check.Location = new System.Drawing.Point(7, 206);
+            this.docu_check.Name = "docu_check";
+            this.docu_check.Size = new System.Drawing.Size(78, 29);
+            this.docu_check.TabIndex = 39;
+            this.docu_check.Text = "Doc.";
+            this.docu_check.UseVisualStyleBackColor = true;
+            // 
+            // halloween_check
+            // 
+            this.halloween_check.AutoSize = true;
+            this.halloween_check.Location = new System.Drawing.Point(160, 147);
+            this.halloween_check.Name = "halloween_check";
+            this.halloween_check.Size = new System.Drawing.Size(129, 29);
+            this.halloween_check.TabIndex = 38;
+            this.halloween_check.Text = "Halloween";
+            this.halloween_check.UseVisualStyleBackColor = true;
             // 
             // monster_check
             // 
@@ -318,7 +339,7 @@
             // find_button
             // 
             this.find_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.find_button.Location = new System.Drawing.Point(255, 315);
+            this.find_button.Location = new System.Drawing.Point(255, 335);
             this.find_button.Name = "find_button";
             this.find_button.Size = new System.Drawing.Size(207, 59);
             this.find_button.TabIndex = 4;
@@ -365,31 +386,23 @@
             this.sorting_label.Text = "Movie Sorting";
             this.sorting_label.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.sorting_label_LinkClicked);
             // 
-            // halloween_check
+            // filetransfer_link
             // 
-            this.halloween_check.AutoSize = true;
-            this.halloween_check.Location = new System.Drawing.Point(160, 147);
-            this.halloween_check.Name = "halloween_check";
-            this.halloween_check.Size = new System.Drawing.Size(129, 29);
-            this.halloween_check.TabIndex = 38;
-            this.halloween_check.Text = "Halloween";
-            this.halloween_check.UseVisualStyleBackColor = true;
-            // 
-            // docu_check
-            // 
-            this.docu_check.AutoSize = true;
-            this.docu_check.Location = new System.Drawing.Point(7, 206);
-            this.docu_check.Name = "docu_check";
-            this.docu_check.Size = new System.Drawing.Size(78, 29);
-            this.docu_check.TabIndex = 39;
-            this.docu_check.Text = "Doc.";
-            this.docu_check.UseVisualStyleBackColor = true;
+            this.filetransfer_link.AutoSize = true;
+            this.filetransfer_link.Location = new System.Drawing.Point(12, 380);
+            this.filetransfer_link.Name = "filetransfer_link";
+            this.filetransfer_link.Size = new System.Drawing.Size(97, 20);
+            this.filetransfer_link.TabIndex = 9;
+            this.filetransfer_link.TabStop = true;
+            this.filetransfer_link.Text = "File Transfer";
+            this.filetransfer_link.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.filetransfer_link_LinkClicked);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(470, 384);
+            this.ClientSize = new System.Drawing.Size(470, 404);
+            this.Controls.Add(this.filetransfer_link);
             this.Controls.Add(this.sorting_label);
             this.Controls.Add(this.none_button);
             this.Controls.Add(this.all_button);
@@ -397,8 +410,8 @@
             this.Controls.Add(this.and_radio);
             this.Controls.Add(this.or_radio);
             this.Controls.Add(this.genres_group);
-            this.MaximumSize = new System.Drawing.Size(492, 440);
-            this.MinimumSize = new System.Drawing.Size(492, 440);
+            this.MaximumSize = new System.Drawing.Size(492, 460);
+            this.MinimumSize = new System.Drawing.Size(492, 460);
             this.Name = "Form1";
             this.Text = "What to Watch";
             this.genres_group.ResumeLayout(false);
@@ -440,6 +453,7 @@
         private System.Windows.Forms.LinkLabel sorting_label;
         private System.Windows.Forms.CheckBox halloween_check;
         private System.Windows.Forms.CheckBox docu_check;
+        private System.Windows.Forms.LinkLabel filetransfer_link;
     }
 }
 
