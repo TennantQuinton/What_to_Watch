@@ -12,7 +12,6 @@ namespace What_to_Watch
 {
     public partial class Form1 : Form
     {
-        // TODO: Add documentary folder and make sure it's working here
         public Form1()
         {
             InitializeComponent();
@@ -85,7 +84,7 @@ namespace What_to_Watch
             }
             if (docu_check.Checked)
             {
-                selected_cats.Add("Drama");
+                selected_cats.Add("Documentary");
             }
             if (drama_check.Checked)
             {
